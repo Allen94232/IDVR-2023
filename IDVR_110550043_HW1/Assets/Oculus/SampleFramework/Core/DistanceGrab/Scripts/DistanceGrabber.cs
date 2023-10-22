@@ -157,12 +157,6 @@ namespace OculusSampleFramework
             {
                 GrabBegin();
             }
-
-            if (OVRInput.GetDown(OVRInput.Button.Two))
-            {
-                GrabEnd();
-            }
-
         }
 
         protected override void GrabBegin()
@@ -220,6 +214,10 @@ namespace OculusSampleFramework
                     Quaternion rotationQuaternion_x = Quaternion.AngleAxis(90.0f, Vector3.right);
                     m_grabbedObjectRotOff = rotationQuaternion_y * rotationQuaternion_x * m_grabbedObjectRotOff;
                 }
+            }
+            else
+            {
+                GrabEnd();
             }
         }
 
