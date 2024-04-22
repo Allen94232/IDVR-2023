@@ -1,0 +1,54 @@
+{
+    "name": "furniture",
+    "maps": [
+        {
+            "name": "furniture",
+            "id": "5b4280a4-8cd1-453b-b67e-0513b7b43602",
+            "actions": [
+                {
+                    "name": "position",
+                    "type": "Value",
+                    "id": "39cb04f0-3b46-45bc-bb91-7b00b2fd7aef",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "rotation",
+                    "type": "Button",
+                    "id": "4831bf8f-79cf-4991-bfed-d23ddd444cc0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6318c2f6-da1d-4dd3-9065-a6259fa32fbb",
+                    "path": "<XRViveTracker>{Keyboard}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3b28a934-fa1e-4984-8821-532b0b632945",
+                    "path": "<XRViveTracker>{Keyboard}/isTracked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
