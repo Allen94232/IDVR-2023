@@ -1,0 +1,50 @@
+# Aspose.3D Wavefront OBJ Exporter
+# Copyright 2004-2023 Aspose Pty Ltd.
+# File created: 12/29/2023 11:41:31
+
+newmtl Pavillon-M.001
+	Ka 0 0 0
+	Kd 0.027207376 0.015568015 0.014220391
+	Ke 0.027207376 0.015568015 0.014220391
+	illum 2
+	Ks 1 1 1
+	Ns 9.607843
+	d 1
+	Tr 0
+	map_Kd F:\Blender\HETIC\City Builder\Textures\Diffuse\Pavillon_diffuse.png
+newmtl Material
+	Ka 0 0 0
+	Kd 0.08352927 0.053249225 0.054940905
+	Ke 0.08352927 0.053249225 0.054940905
+	illum 2
+	Ks 1 1 1
+	Ns 9.607843
+	d 1
+	Tr 0
+newmtl Metal
+	Ka 0 0 0
+	Kd 0.13286154 0.13286154 0.13286154
+	Ke 0.13286154 0.13286154 0.13286154
+	illum 2
+	Ks 1 1 1
+	Ns 9.607843
+	d 1
+	Tr 0
+newmtl Windows
+	Ka 0 0 0
+	Kd 0.0789739 0.9134184 0.94038564
+	Ke 0.0789739 0.9134184 0.94038564
+	illum 2
+	Ks 1 1 1
+	Ns 9.607843
+	d 1
+	Tr 0
+newmtl Material.001
+	Ka 0 0 0
+	Kd 0.07374699 0.37169045 0.8000001
+	Ke 0.07374699 0.37169045 0.8000001
+	illum 2
+	Ks 1 1 1
+	Ns 9.607843
+	d 1
+	Tr 0
